@@ -1,0 +1,39 @@
+name: Incluir ou corrigir célula
+description: Propor dados de uma ERB confirmada, sem posições pessoais
+title: "[Célula] Município / Operadora / Tecnologia"
+body:
+  - type: markdown
+    attributes:
+      value: "Esta Issue é pública. Não anexe logs brutos, trajetos ou posições do telefone. Leia CONTRIBUTING.md antes de enviar."
+  - type: textarea
+    id: identificacao
+    attributes:
+      label: Identificação técnica
+      description: "Operadora, MCC/MNC observado, tecnologia, CID/CI/NCI, LAC/TAC, RNC/eNB quando aplicável, PCI/PSC/BSIC e canal. Marque explicitamente o que for desconhecido."
+    validations:
+      required: true
+  - type: textarea
+    id: local
+    attributes:
+      label: Localização da infraestrutura
+      description: "Município/RS, latitude e longitude da ERB e descrição neutra. Não informe onde você estava."
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidência, procedência e atribuição
+      description: "Como confirmou a torre e o vínculo com a célula? Informe data, fonte sanitizada, direito de reutilização e pseudônimo para atribuição. Para correção, explique o problema da versão anterior."
+    validations:
+      required: true
+  - type: checkboxes
+    id: declaracoes
+    attributes:
+      label: Declarações
+      options:
+        - label: As coordenadas são da infraestrutura confirmada, não do telefone nem de uma estimativa sem confirmação.
+          required: true
+        - label: Revisei o conteúdo e removi dados pessoais, trajetos e metadados do fotógrafo.
+          required: true
+        - label: Tenho autorização para contribuir com estes dados sob CC BY 4.0 e informei a atribuição necessária.
+          required: true

@@ -1,0 +1,20 @@
+SPDX-License-Identifier: CC-BY-4.0
+
+Copyright (c) 2026 contribuidores de netmonster-rs.
+
+Os dados em databases/, os metadados em metadata/ e a documentação deste
+projeto são disponibilizados sob a licença Creative Commons Atribuição 4.0
+Internacional (CC BY 4.0).
+
+O texto integral da licença, incorporado por referência, está em:
+https://creativecommons.org/licenses/by/4.0/legalcode.pt
+Texto oficial em inglês:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Ao redistribuir, preserve a atribuição, informe a licença e indique alterações,
+conforme os termos integrais. Os materiais são oferecidos sem garantias,
+inclusive de precisão ou completude. Esta licença não concede direitos sobre
+marcas, privacidade ou material de terceiros sem autorização.
+
+Scripts, testes e configurações em scripts/, tests/, config/, .github/,
+.gitignore e .gitattributes seguem a licença MIT em LICENSE-CODE.
